@@ -27,11 +27,12 @@
 ### Show current weather
 <img width="200" alt="Screen Shot 2022-02-05 at 4 35 44 PM" src="https://user-images.githubusercontent.com/79236612/152636327-a4b8dfc0-9230-4c31-9f5e-cf3cc5a0426c.png">
 
-### Show the location on the map
-<img width="200" alt="Screen Shot 2022-02-05 at 4 36 32 PM" src="https://user-images.githubusercontent.com/79236612/152636349-7774dd54-5303-4c8e-9ef1-a213eddb2f1e.png">
 
-### Provide navigation route
-<img width="200" alt="Screen Shot 2022-02-05 at 4 36 20 PM" src="https://user-images.githubusercontent.com/79236612/152636375-40387f99-1233-4528-812b-c4fd1017e009.png">
+### Show the location on the map and provide navigation route
+<p float="left">
+  <img width="200" alt="Screen Shot 2022-02-05 at 4 36 32 PM" src="https://user-images.githubusercontent.com/79236612/152636349-7774dd54-5303-4c8e-9ef1-a213eddb2f1e.png">
+  <img width="200" alt="Screen Shot 2022-02-05 at 4 36 20 PM" src="https://user-images.githubusercontent.com/79236612/152636375-40387f99-1233-4528-812b-c4fd1017e009.png">
+</p>
 
 ### Add new attraction
 <img width="200" alt="Screen Shot 2022-02-05 at 4 36 52 PM" src="https://user-images.githubusercontent.com/79236612/152636403-8a477217-6945-4db2-a687-9fd0d203c233.png">

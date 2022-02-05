@@ -19,6 +19,7 @@
 ### Provide navigation route
 <img width="387" alt="Screen Shot 2022-02-05 at 4 36 20 PM" src="https://user-images.githubusercontent.com/79236612/152636375-40387f99-1233-4528-812b-c4fd1017e009.png">
 
-### Add new attraction<img width="387" alt="Screen Shot 2022-02-05 at 4 36 52 PM" src="https://user-images.githubusercontent.com/79236612/152636403-8a477217-6945-4db2-a687-9fd0d203c233.png">
+### Add new attraction
+<img width="387" alt="Screen Shot 2022-02-05 at 4 36 52 PM" src="https://user-images.githubusercontent.com/79236612/152636403-8a477217-6945-4db2-a687-9fd0d203c233.png">
 
 

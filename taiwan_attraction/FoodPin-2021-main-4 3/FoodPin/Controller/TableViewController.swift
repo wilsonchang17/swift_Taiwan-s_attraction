@@ -28,6 +28,12 @@ class TableViewController: UITableViewController {
             print("Deleted all my data in myEntity error : \(error) \(error.userInfo)")
         }
     }*/
+    var scenes = [
+        Scene( photoCount: 2, image1: "photo0_0", image2: "photo0_1", image3: nil),
+        Scene(  photoCount: 3, image1: "photo1_0", image2: "photo1_1", image3: "photo1_2"),
+        Scene(photoCount: 2, image1: "photo2_0", image2: "photo2_1", image3: nil)
+        ]
+    
     var fetchResultController: NSFetchedResultsController<Restaurant>!
     var appDelegate: AppDelegate!
     var managedContext: NSManagedObjectContext!
@@ -38,7 +44,8 @@ class TableViewController: UITableViewController {
     
     var searchController: UISearchController!
 
-
+    @IBOutlet weak var like: UILabel!
+    var li = [] as [String]
     // MARK: - UITableView Life's Cycle
     
     override func viewDidLoad() {
@@ -72,11 +79,30 @@ class TableViewController: UITableViewController {
         searchController.searchBar.backgroundImage = UIImage()
         searchController.searchBar.tintColor = UIColor(named: "NavigationBarTitle")
 
-
+        like.text = "Likes"
        self.navigationItem.searchController = searchController
        //tableView.tableHeaderView = searchController.searchBar
     }
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
 
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return scenes.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "datacell", for: indexPath)
+        return cell
+    }
+    /*
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetail" {
+            let des = segue.destination as! DetailViewController
+            let selectedRow = tableView.indexPathForSelectedRow!.row
+            des.scene = scenes[selectedRow]
+        }
+    }*/
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -147,7 +173,18 @@ class TableViewController: UITableViewController {
             
             //save the data change when mark or unmark the favorites
             self.appDelegate.saveContext()
-            
+            if (self.restaurants[indexPath.row].isFavorite == true){
+                self.li.append(self.restaurants[indexPath.row].name)
+                let stringg = self.li.joined(separator: ", ")
+                self.like.text = "I love: " + stringg
+            }
+            if (self.restaurants[indexPath.row].isFavorite == false){
+                if let index = self.li.firstIndex(of: self.restaurants[indexPath.row].name){
+                    self.li.remove(at: index)
+                }
+                let stringg = self.li.joined(separator: ", ")
+                self.like.text = "I love: " + stringg
+            }
             //update the cell's accessoryType
             cell.accessoryType = self.restaurants[indexPath.row].isFavorite ? .checkmark : .none
             

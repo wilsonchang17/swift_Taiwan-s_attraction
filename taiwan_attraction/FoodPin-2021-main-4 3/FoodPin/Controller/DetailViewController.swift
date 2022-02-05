@@ -13,9 +13,10 @@ class DetailViewController: UIViewController {
      this is required because the controller is not a tableview controller
     */
     
+    @IBOutlet weak var colltionView: UICollectionView!
     @IBOutlet var tableView: UITableView!
     @IBOutlet var headerView: DetailHeaderView!
-  
+    var imagee = [UIImage(named: "photo0_0"),UIImage(named: "photo0_1")]
     //This variable will be set with the passed data from the segue
     var restaurant: Restaurant!
 
@@ -121,4 +122,5 @@ extension DetailViewController: UITableViewDataSource, UITableViewDelegate {
         }
     }
 }
+
 

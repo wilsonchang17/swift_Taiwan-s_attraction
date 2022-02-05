@@ -16,8 +16,9 @@ class TableViewCell: UITableViewCell {
     @IBOutlet var typeLabel: UILabel!
     @IBOutlet var thumbnailImageView: UIImageView! {
         didSet { //set rounded corners
-            thumbnailImageView.layer.cornerRadius = 20
+            thumbnailImageView.layer.cornerRadius = 40
             thumbnailImageView.clipsToBounds = true
+            thumbnailImageView.layer.borderWidth = 2
         }
     }
 

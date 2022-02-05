@@ -1,5 +1,5 @@
-# swift_Taiwan's_attraction
-# A little iOS app to show list of attraction in Taiwan
+# A little iOS app written in swift to show list of attraction in Taiwan
+---
 ## What can this app do?
 - List attraction
 - Like and delete attraction

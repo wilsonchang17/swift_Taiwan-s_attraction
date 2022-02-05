@@ -1,4 +1,4 @@
-# A little iOS app written in swift to show list of attraction in Taiwan
+# A little iOS app written in swift(based on prof's foodpin code) to show list of attraction in Taiwan
 ---
 ## What can this app do?
 - List attraction

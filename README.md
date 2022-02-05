@@ -1,5 +1,5 @@
 # A little iOS app written in swift to show list of attraction in Taiwan<br>
-##### based on foodpin code in iOS-app design course)
+##### based on foodpin code in iOS-app design course
 ---
 ## What can this app do?
 - List attraction

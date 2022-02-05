@@ -2,6 +2,7 @@
 # A little iOS app to show list of attraction in Taiwan
 ## What can this app do?
 - List attraction
+- Like and delete attraction
 - Show current weather
 - Show the location on the map
 - Provide navigation route

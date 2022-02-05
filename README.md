@@ -15,6 +15,13 @@
   <img width="300" alt="Screen Shot 2022-02-05 at 4 33 15 PM" src="https://user-images.githubusercontent.com/79236612/152636617-63e7fbd2-b55a-45ff-9060-9ef4767defb3.png">
 </p>
 
+### Like and delete attraction
+<p float="left">
+  <img width="300" alt="Screen Shot 2022-02-05 at 5 49 35 PM" src="https://user-images.githubusercontent.com/79236612/152636870-334a315e-9162-459a-8e44-1788c3499f20.png">
+  <img width="300" alt="Screen Shot 2022-02-05 at 5 49 55 PM" src="https://user-images.githubusercontent.com/79236612/152636886-23a53f17-48bd-4b1e-8d87-c99f7dc0309c.png">
+  <img width="300" alt="Screen Shot 2022-02-05 at 5 50 26 PM" src="https://user-images.githubusercontent.com/79236612/152636888-11df35fb-84ba-4310-bcd0-6d84930fb79c.png">
+
+</p>
 
 
 ### Show current weather
